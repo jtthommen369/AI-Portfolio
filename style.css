@@ -46,6 +46,20 @@ line-height:2;
 }
 
 
+section a {
+  color: #0066CC;        /* visible blue */
+  font-weight: bold;      /* makes it stand out */
+  text-decoration: underline;  /* underline link */
+}
+
+section a:hover {
+  color: #004C99;        /* darker blue on hover */
+}
+
+section p a {
+  display: inline-block;
+  margin-top: 10px;      /* spacing above the link */
+}
 
 
 
